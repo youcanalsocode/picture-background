@@ -1,0 +1,72 @@
+
+html, body{
+     height: 100%; 
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+   
+}
+.sec1
+{
+    background-image:url(images/nature1.jpg);
+    min-height:100%;   
+}
+.sec2
+{
+    background-image:url(images/nature\ 2.jpg);
+    min-height:400px;   
+}
+.sec3
+{
+    background-image:url(images/nature3.jpg);
+    min-height:400px;   
+}
+.sec1,.sec2,.sec3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text
+{ position: absolute;
+   
+    
+   
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    
+   
+  
+   
+
+}
+.txtbg
+{ 
+     background: black; 
+    color: white;
+
+    padding: 20px;
+
+}
+
+.txtbg2
+{
+     color: black;   
+     padding: 20px;
+     background:white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.txtbg3
+{
+    color: white;   
+     padding: 20px;
+     background:black;
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+}
